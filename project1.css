@@ -14,11 +14,16 @@
     background: white;
     border-bottom: 1px solid #eee;
 }
+.navbar {
+     cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
 
 .logo {
-    font-size: 26px;
-    font-weight: bold;
-    color: #ff3f6c;
+   height:15px ;
+   width:0 ;
 }
 
 .menu a {
@@ -56,8 +61,8 @@
 }
 
 .icons {
-    display: grid;
-    gap: 20px;
+    display: flex;
+    gap: 30px;
     font-size: 14px;
     font-weight: 500;
 }
